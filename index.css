@@ -5,13 +5,35 @@ body {
     background-position: center;
     font-family: "Poppins", serif;
 }
+a {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0 0 5px;
+    line-height: 2;
+}
+
+select {
+    border-radius: 4px;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
 
 .container {
     margin: 0 auto;
     max-width: 600px;
     background-color: rgb(252, 253, 253);
-    margin:60px auto;
-    padding: 30px;
+    margin:40px auto;
+    padding: 20px;
 
 }
 
@@ -24,10 +46,8 @@ body {
 
 }
 
-h2 {
-    font-size: 28px;
-    margin: 0 0 5px;
-    line-height: 2;
+.city:last-child {
+    border:none;
 }
 
 .date {
@@ -44,25 +64,12 @@ h2 {
     line-break: 16px;
     vertical-align: middle;
 }
-h1 {
-    font-size: 28px;
-    text-align: center;
-}
 
-
-select {
-    border-radius: 4px;
-    display: block;
-    font-size: 18px;
-    padding: 10px;
-    width: 100%;
-}
 
 footer {
-    border-top: 1px solid #f9f7fe;
-    text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: -0.5px;
-    padding-top: 40px;
     text-decoration: #abcecf;
+    text-align: center;
+    padding-top: 30px;
 }
